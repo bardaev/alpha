@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/latest.json",
+    "queryParameters": {
+      "app_id": {
+        "equalTo": "key"
+      },
+      "symbols": {
+        "equalTo": "RUB"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\n    \"disclaimer\": \"Usage subject to terms: https://openexchangerates.org/terms\",\n    \"license\": \"https://openexchangerates.org/license\",\n    \"timestamp\": 1653466312,\n    \"base\": \"RUB\",\n    \"rates\": {\n        \"RUB\": 62.224993\n    }\n}"
+  }
+}

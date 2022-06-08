@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/historical/2022-06-07.json",
+    "queryParameters": {
+      "app_id": {
+        "equalTo": "key"
+      },
+      "symbols": {
+        "equalTo": "RUB"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\n    \"disclaimer\": \"Usage subject to terms: https://openexchangerates.org/terms\",\n    \"license\": \"https://openexchangerates.org/license\",\n    \"timestamp\": 1653379912,\n    \"base\": \"RUB\",\n    \"rates\": {\n        \"RUB\": 61.224993\n    }\n}"
+  }
+}
